@@ -1,3 +1,5 @@
+require './lib/airport'
+
 class Plane
 
 	def initialize 
@@ -9,17 +11,15 @@ class Plane
 	end
 
 	def landed!
-		@landed = true
 		@flying = false
 	end
 
 	def flying!
 		@flying = true
-		@landed = false
 	end
 
 	def landed?
-		@landed
+		@landed = true
 	end
 	
 end

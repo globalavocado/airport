@@ -20,8 +20,7 @@ describe Plane do
 		expect(plane).to be_landed
 	end
 
-# When the plane takes of from the airport, the plane's status should
-# become "flying" 
+# When the plane takes of from the airport, the plane's status should become "flying" 
  
 	it 'can take off from the airport' do
 		# it has to have the status of 'landed' first
