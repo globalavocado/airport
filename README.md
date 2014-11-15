@@ -1,31 +1,33 @@
-Friday challenge for week3:
-create airport and  plane classes. planes can land & take off, but are subject to a weather randomiser (sunny or stormy). Build using TDD.
+<h1>Airport</h1>
 
-CRC:
+<h2>Makers Academy week 3 - Friday challenge</h2>
+Create airport and  plane classes. Planes can land & take off, but are subject to a weather randomiser (sunny or stormy). Built using TDD.
 
-*airport class*
+<h3>Technologies used:</h3>
+- ruby
 
-collaborator: plane
-responsibility:
+<h3>class - responsibility - collaborator:</h3>
+<h4>airport class</h4>
+
+*collaborator:* plane
+*responsibility:*
 can prevent a plane from landing if the airport is full
 can prevent a plane from taking off in bad weather
 can prevent plane from landing in bad weather
 
-*plane class*
+<h4>plane class</h4>
+*collaborator:* airport
 
-collaborator: airport
-
-responsibility:
+*responsibility:*
 to be created with flying status
 can land
 can take off
 (has flying status when in the air
 sets its status to flying after it takes off)
 
-*weather module*
+<h4>weather module</h4>
+*collaborator:* airport, plane
 
-collaborator: airport, plane
-
-responsibilities:
+*responsibilities:*
 to be mostly sunny but occasionally stormy
 (done with the .sample method)
