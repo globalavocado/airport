@@ -10,6 +10,7 @@ Create airport and  plane classes. Planes can land & take off, but are subject t
 <h4>airport class</h4>
 
 *collaborator:* plane
+
 *responsibility:*
 can prevent a plane from landing if the airport is full
 can prevent a plane from taking off in bad weather
