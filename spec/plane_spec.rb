@@ -16,7 +16,7 @@ describe Plane do
 
 	it 'can land in the airport' do
 		plane.flying?
-		plane.landed!
+		plane.landed?
 		expect(plane).to be_landed
 	end
 
@@ -24,7 +24,7 @@ describe Plane do
  
 	it 'can take off from the airport' do
 		# it has to have the status of 'landed' first
-		plane.landed!
+		plane.landed?
 		# its status will then be set to 'flying'
 		plane.flying!
 		expect(plane).to be_flying
