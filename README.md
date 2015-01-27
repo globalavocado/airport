@@ -1,7 +1,14 @@
+[![Code Climate](https://codeclimate.com/github/globalavocado/airport/badges/gpa.svg)](https://codeclimate.com/github/globalavocado/airport)
+
 <h1>Airport</h1>
 
 <h2>Makers Academy week 3 - Friday challenge</h2>
 Create airport and  plane classes. Planes can land & take off, but are subject to a weather randomiser (sunny or stormy). Built using TDD.
+
+<h4>project status</h4>
+The weather module still needs to be added for the airport to be fully functional.
+
+==
 
 <h3>Technologies used:</h3>
 - ruby
